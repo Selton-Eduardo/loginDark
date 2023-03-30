@@ -20,16 +20,42 @@ body{
 
 .login{
     background-color: #181920; 
-    width: 355px;
-    height: 320px;
-    padding: 35px;   
+    width: 450px;
+    height: 450px;
+    padding: 35px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;  
 }
 
 .login form{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
-.login input{
+h1{
+    color: blue;
+    font-size: 40px; 
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+
+P{
+    margin-top: 20px;
+}
+
+.login-input{
     margin-top: 10px;
+    background-color: #252a34;
+    border: none;
+    height: 40px;
+    outline: none;
+    border-radius: 10px;      
+}
+
+input::placeholder{
+    color: #cbd0f7;   
 }
