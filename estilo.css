@@ -27,6 +27,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;  
+    border-radius: 10px;
 }
 
 .login form{
@@ -43,9 +44,6 @@ h1{
     margin-bottom: 40px;
 }
 
-P{
-    margin-top: 20px;
-}
 
 .login-input{
     margin-top: 10px;
@@ -53,9 +51,32 @@ P{
     border: none;
     height: 40px;
     outline: none;
-    border-radius: 10px;      
+    border-radius: 10px; 
+    color: #cbd0f7;     
 }
 
 input::placeholder{
-    color: #cbd0f7;   
+    color: #cbd0f7; 
+    font-size: 14px; 
+    padding-left: 10px; 
+}
+
+form [type="submit"]{
+    display: block;
+    background-color: #5568fe;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+P{
+    color: #cbd0f7;
+    margin-top: 20px;
+}
+
+a{
+    color:#5568fe;
+    text-decoration: none;
+    margin-left: 10px;
 }
